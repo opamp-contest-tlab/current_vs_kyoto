@@ -1,0 +1,30 @@
+{
+  "source": "ce8d25295c621617db41d4d8610f93d9ade6498ce3f62da4b058ac057cb050da.json",
+  "netlist": ".param psvoltage=1.8\n.subckt opamp inm inp out vdd vss\nm40 vb3 vb3 net7 vss cmosn l=180e-9 w=270e-9 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm37 net7 net7 vss vss cmosn l=180e-9 w=270e-9 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm34 vb4 vb4 vss vss cmosn l=180e-9 w=270e-9 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm10 out net10 vss vss cmosn l=180e-9 w=270e-9 m=32 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm5 net10 vb4 vss vss cmosn l=180e-9 w=270e-9 m=50 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm3 net4 vb4 vss vss cmosn l=180e-9 w=270e-9 m=32 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm4 net5 vb4 vss vss cmosn l=180e-9 w=270e-9 m=32 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm8 net1 vb3 net4 vss cmosn l=180e-9 w=270e-9 m=32 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm9 net2 vb3 net5 vss cmosn l=180e-9 w=270e-9 m=32 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm39 vb3 vb1 vdd vdd cmosp l=180e-9 w=700e-6 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm38 vb1 vb1 vdd vdd cmosp l=180e-9 w=700e-6 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm29 out vb1 vdd vdd cmosp l=180e-9 w=700e-6 m=50 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm19 net10 net2 out vdd cmosp l=180e-9 w=700e-6 m=32 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm28 net9 net8 vdd vdd cmosp l=180e-9 w=700e-6 m=32 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm27 net8 net8 vdd vdd cmosp l=180e-9 w=700e-6 m=32 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm18 net2 net1 net9 vdd cmosp l=180e-9 w=700e-6 m=32 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm17 net1 net1 net8 vdd cmosp l=180e-9 w=700e-6 m=32 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm16 net4 inm net3 vdd cmosp l=180e-9 w=700e-6 m=10 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm15 net5 inp net3 vdd cmosp l=180e-9 w=700e-6 m=10 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nm26 net3 vb1 vdd vdd cmosp l=180e-9 w=700e-6 m=50 as=4.2e-10 ps=0.0014012 ad=4.2e-10 pd=0.0014012\nr1 vb1 vb4 r=1e3\n.ends opamp\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "ibr": 32.769,
+    "psv": 1.8,
+    "ib": 0.0073441,
+    "pdis": 0.013219,
+    "sr": 0.0,
+    "td2": 2.3408e-08,
+    "irn": 8215400000.0,
+    "td3": 5.1788e-08,
+    "thd": 33.019,
+    "vo2f": 0.0,
+    "cmrmin": 0.0,
+    "vi1f": 0.0,
+    "cmr": 0.0,
+    "area": 272490.0,
+    "td4": 5.1788e-08,
+    "ro": 6.381,
+    "td1": 0.0,
+    "ovrmin": 0.0,
+    "vi2f": 0.0,
+    "ovr": 50.0,
+    "vo1f": 0.0
+  }
+}

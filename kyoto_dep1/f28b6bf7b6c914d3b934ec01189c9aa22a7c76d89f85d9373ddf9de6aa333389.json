@@ -1,0 +1,34 @@
+{
+  "source": "f28b6bf7b6c914d3b934ec01189c9aa22a7c76d89f85d9373ddf9de6aa333389.json",
+  "netlist": ".param psvoltage=3.0v\n.subckt opamp inm inp out vdd vss\nm1 n009 n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm14 out n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm19 n001 inm n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm20 n004 inp n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm21 vdd n004 n004 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm22 out n005 vdd vdd cmosp l=1e-06 w=3e-06 m=10 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm23 vdd n001 n001 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm24 vdd n003 n005 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm25 vdd n003 n003 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm26 n003 n004 n010 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm27 n005 n001 n010 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm28 n010 n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nc3 out n006 c=1p\nm29 vdd n002 n007 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm30 vdd n002 n002 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm31 n002 n007 n008 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm32 n007 n008 vss vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nr2 n008 vss r=160k\nr1 n005 n006 r=40k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "td2": 7.2081e-07,
+    "cmrr": 92.698,
+    "vo2f": -0.24789,
+    "vo1f": 0.17471,
+    "sr": 399200000.0,
+    "td1": 1.9751e-07,
+    "ovrmin": 26.0,
+    "area": 1824.8,
+    "ovr": 76.0,
+    "ibr": 5.4156,
+    "vi2f": -0.19539,
+    "pm": 15.439,
+    "vi1f": 0.19539,
+    "psrr": 66.113,
+    "ro": 88.89,
+    "td4": 3.7919e-09,
+    "dcgain": 52.261,
+    "pdis": 0.00037504,
+    "gbp": 14358000.0,
+    "ib": 0.00012501,
+    "irn": 0.010105,
+    "cmr": 99.167,
+    "cmrmin": 49.167,
+    "td3": 2.1843e-06,
+    "psv": 3.0
+  }
+}

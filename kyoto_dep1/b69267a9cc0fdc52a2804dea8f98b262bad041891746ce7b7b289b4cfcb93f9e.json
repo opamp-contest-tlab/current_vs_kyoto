@@ -1,0 +1,25 @@
+{
+  "source": "b69267a9cc0fdc52a2804dea8f98b262bad041891746ce7b7b289b4cfcb93f9e.json",
+  "netlist": ".param psvoltage=3\n.subckt opamp inm inp out vdd vss\nm1 net1 net1 vdd vdd cmosp l=6e-07 w=6e-07 as=3.6e-13 ps=2.4e-06 ad=3.6e-13 pd=2.4e-06\nm2 vss net2 net2 vss cmosn l=4.5e-06 w=4.5e-07 as=2.7e-13 ps=2.1e-06 ad=2.7e-13 pd=2.1e-06\nm3 vdd net1 net3 vdd cmosp l=9e-07 w=9e-07 m=3 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm4 net3 inp net4 vdd cmosp l=9e-07 w=9e-07 m=30 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm5 net3 inm net5 vdd cmosp l=9e-07 w=9e-07 m=30 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm6 vss net4 net4 vss cmosn l=2.7e-06 w=9e-07 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm7 vss net4 net5 vss cmosn l=2.7e-06 w=9e-07 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nc1 vdd net6 c=0.1p\nr1 net6 net5 r=0.4meg\nm8 vdd net1 net7 vdd cmosp l=2.7e-06 w=2.7e-06 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm9 net7 net5 net8 vdd cmosp l=9e-07 w=9e-07 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm10 net7 out net9 vdd cmosp l=9e-07 w=9e-07 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm11 vss net8 net8 vss cmosn l=1.8e-06 w=3e-07 as=1.8e-13 ps=1.8e-06 ad=1.8e-13 pd=1.8e-06\nm12 vss net8 net9 vss cmosn l=1.8e-06 w=3e-07 as=1.8e-13 ps=1.8e-06 ad=1.8e-13 pd=1.8e-06\nm13 vdd net1 out vdd cmosp l=6e-07 w=6e-07 m=20 as=3.6e-13 ps=2.4e-06 ad=3.6e-13 pd=2.4e-06\nm14 out net9 net10 vdd cmosp l=9e-07 w=9e-07 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nm15 vss net2 net10 vss cmosn l=2.7e-06 w=2.7e-07 as=1.62e-13 ps=1.74e-06 ad=1.62e-13 pd=1.74e-06\nm16 vss net10 out vss cmosn l=9e-07 w=9e-07 m=10 as=5.4e-13 ps=3e-06 ad=5.4e-13 pd=3e-06\nc2 vdd net11 c=0.1p\nr2 net11 net9 r=0.5meg\nr3 net1 net2 r=0.5meg\n.ends opamp\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "ro": 0.1,
+    "ovr": 32.667,
+    "ovrmin": 11.0,
+    "cmr": 81.333,
+    "irn": 0.0017622,
+    "cmrmin": 31.833,
+    "cmrr": 60.666,
+    "psv": 3.0,
+    "ib": 7.2743e-05,
+    "gbp": 150280000.0,
+    "pm": 8.5171,
+    "psrr": 43.097,
+    "pdis": 0.00021823,
+    "area": 4869.3,
+    "dcgain": 41.8,
+    "ibr": 27.752
+  }
+}

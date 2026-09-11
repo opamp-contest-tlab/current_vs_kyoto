@@ -1,0 +1,34 @@
+{
+  "source": "24068b08d48ca18676fef57ad0223ae56e1d7665709eb6b42a76e3359ccb4cbd.json",
+  "netlist": ".param psvoltage=2\n.subckt opamp inm inp out vdd vss\nc023 net990 net1029 c=24p\nm017 out1 out1 vdd vdd cmosp l=7e-07 w=8e-07 as=4.8e-13 ps=2.8e-06 ad=4.8e-13 pd=2.8e-06\nm018 out2 out2 vdd vdd cmosp l=7e-07 w=8e-07 as=4.8e-13 ps=2.8e-06 ad=4.8e-13 pd=2.8e-06\nm1 out1 out2 vdd vdd cmosp l=7e-07 w=8e-07 as=4.8e-13 ps=2.8e-06 ad=4.8e-13 pd=2.8e-06\nm10 net1013 4 vss vss cmosn l=1e-05 w=1.14e-05 m=2 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nm11 net1010 net990 vdd vdd cmosp l=7e-07 w=2.7e-06 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm12 net1010 net1010 net1012 vss cmosn l=7e-07 w=7e-07 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nm13 net1011 net1011 net1012 net1012 cmosp l=7e-07 w=2.7e-06 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm14 net1011 4 vss vss cmosn l=1e-05 w=1.14e-05 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nm15 vdd net1010 out vss cmosn l=7e-07 w=7e-07 m=16 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nm16 vss net1011 out out cmosp l=7e-07 w=2.7e-06 m=16 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm2 out2 out1 vdd vdd cmosp l=7e-07 w=8e-07 as=4.8e-13 ps=2.8e-06 ad=4.8e-13 pd=2.8e-06\nm3 out1 inm net939 vss cmosn l=7e-07 w=7e-07 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nm4 out2 inp net939 vss cmosn l=7e-07 w=7e-07 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nm5 net939 4 vss vss cmosn l=1e-05 w=1.14e-05 m=2 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nm6 net945 net945 vdd vdd cmosp l=7e-07 w=2.7e-06 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm7 net990 net945 vdd vdd cmosp l=7e-07 w=2.7e-06 as=1.62e-12 ps=6.6e-06 ad=1.62e-12 pd=6.6e-06\nm8 net945 out2 net1013 vss cmosn l=7e-07 w=7e-07 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nm9 net990 out1 net1013 vss cmosn l=7e-07 w=7e-07 as=4.2e-13 ps=2.6e-06 ad=4.2e-13 pd=2.6e-06\nmb1 1 1 vdd vdd cmosp l=1e-05 w=4.4e-05 as=2.64e-11 ps=8.92e-05 ad=2.64e-11 pd=8.92e-05\nmb2 2 2 1 1 cmosp l=1e-05 w=4.4e-05 as=2.64e-11 ps=8.92e-05 ad=2.64e-11 pd=8.92e-05\nmb3 2 3 net787 vss cmosn l=1e-05 w=1.14e-05 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nmb4 net787 4 vss vss cmosn l=1e-05 w=1.14e-05 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nmb5 net892 1 net893 net893 cmosp l=1e-05 w=4.4e-05 m=4 as=2.64e-11 ps=8.92e-05 ad=2.64e-11 pd=8.92e-05\nmb6 3 2 net892 net892 cmosp l=1e-05 w=4.4e-05 as=2.64e-11 ps=8.92e-05 ad=2.64e-11 pd=8.92e-05\nmb7 3 3 4 vss cmosn l=1e-05 w=1.14e-05 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nmb8 4 4 vss vss cmosn l=1e-05 w=1.14e-05 as=6.84e-12 ps=2.4e-05 ad=6.84e-12 pd=2.4e-05\nr014 vdd net893 r=21.9k\nr015 net1029 net1010 r=22k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "td1": 1.8624e-06,
+    "cmrmin": 42.75,
+    "psv": 2.0,
+    "ib": 0.00011608,
+    "td4": 3.2498e-06,
+    "vi1f": 0.02151,
+    "dcgain": 77.456,
+    "vi2f": -0.02151,
+    "ro": 0.1499,
+    "cmrr": 135.32,
+    "gbp": 12223000.0,
+    "ovr": 29.0,
+    "td2": 7.2293e-06,
+    "irn": 0.011355,
+    "pm": -105.84,
+    "td3": 3.3626e-06,
+    "vo1f": -0.22542,
+    "cmr": 92.75,
+    "sr": 12000000.0,
+    "ibr": 24.225,
+    "pdis": 0.00023217,
+    "ovrmin": 4.5,
+    "area": 28876.0,
+    "vo2f": -0.072675,
+    "psrr": 79.33
+  }
+}

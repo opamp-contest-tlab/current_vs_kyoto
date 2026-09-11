@@ -1,0 +1,34 @@
+{
+  "source": "97735fa78d65b2365f3c04ad3422f8de5b66939e62dfde47634f823415f23ed8.json",
+  "netlist": ".param psvoltage=3.0\n.subckt opamp inm inp out vdd vss\nm1 vb1 vb3 vss vss cmosn l=7.32e-06 w=4.3e-06 as=2.58e-12 ps=9.8e-06 ad=2.58e-12 pd=9.8e-06\nm2 vb3 vb3 vss vss cmosn l=7.32e-06 w=4.3e-06 as=2.58e-12 ps=9.8e-06 ad=2.58e-12 pd=9.8e-06\nm3 vb1 vb1 vdd vdd cmosp l=2.07e-06 w=9.7e-06 as=5.82e-12 ps=2.06e-05 ad=5.82e-12 pd=2.06e-05\nm4 vb3 vb1 n004 n004 cmosp l=2.07e-06 w=9.7e-06 m=4 as=5.82e-12 ps=2.06e-05 ad=5.82e-12 pd=2.06e-05\nm5 vb2 vb3 vss vss cmosn l=7.32e-06 w=1.1e-06 as=6.6e-13 ps=3.4e-06 ad=6.6e-13 pd=3.4e-06\nr2 vdd n004 r=410.0k\nm6 vb2 vb2 vdd vdd cmosp l=3.19e-06 w=7.24e-06 as=4.344e-12 ps=1.568e-05 ad=4.344e-12 pd=1.568e-05\nm7 tail1 tail2 vss vss cmosn l=3.45e-06 w=5.64e-06 as=3.384e-12 ps=1.248e-05 ad=3.384e-12 pd=1.248e-05\nm8 diff1o1 inp tail1 vss cmosn l=7.28e-06 w=8.24e-06 as=4.944e-12 ps=1.768e-05 ad=4.944e-12 pd=1.768e-05\nm9 diff1o2 inm tail1 vss cmosn l=7.28e-06 w=8.24e-06 as=4.944e-12 ps=1.768e-05 ad=4.944e-12 pd=1.768e-05\nm10 diff1o1 vb1 vdd vdd cmosp l=2.07e-06 w=9.25e-06 as=5.55e-12 ps=1.97e-05 ad=5.55e-12 pd=1.97e-05\nm11 diff1o1 diff1o1 vdd vdd cmosp l=6.18e-06 w=2.54e-06 as=1.524e-12 ps=6.28e-06 ad=1.524e-12 pd=6.28e-06\nm12 diff1o2 diff1o2 vdd vdd cmosp l=6.18e-06 w=2.54e-06 as=1.524e-12 ps=6.28e-06 ad=1.524e-12 pd=6.28e-06\nm13 diff1o2 vb1 vdd vdd cmosp l=2.07e-06 w=9.25e-06 as=5.55e-12 ps=1.97e-05 ad=5.55e-12 pd=1.97e-05\nm14 tail2 tail3 vss vss cmosn l=7.36e-06 w=6.83e-06 as=4.098e-12 ps=1.486e-05 ad=4.098e-12 pd=1.486e-05\nm15 diff2o1 diff1o1 tail2 vss cmosn l=4.96e-06 w=6.2e-06 as=3.72e-12 ps=1.36e-05 ad=3.72e-12 pd=1.36e-05\nm16 diff2o2 diff1o2 tail2 vss cmosn l=4.96e-06 w=6.2e-06 as=3.72e-12 ps=1.36e-05 ad=3.72e-12 pd=1.36e-05\nm17 diff2o1 vb2 vdd vdd cmosp l=3.19e-06 w=8.41e-06 as=5.046e-12 ps=1.802e-05 ad=5.046e-12 pd=1.802e-05\nm18 diff2o1 diff2o1 vdd vdd cmosp l=6.51e-06 w=9.06e-06 as=5.436e-12 ps=1.932e-05 ad=5.436e-12 pd=1.932e-05\nm19 diff2o2 diff2o2 vdd vdd cmosp l=6.51e-06 w=9.06e-06 as=5.436e-12 ps=1.932e-05 ad=5.436e-12 pd=1.932e-05\nm20 diff2o2 vb2 vdd vdd cmosp l=3.19e-06 w=8.41e-06 as=5.046e-12 ps=1.802e-05 ad=5.046e-12 pd=1.802e-05\nm21 n001 n001 vdd vdd cmosp l=4.22e-06 w=7.26e-06 as=4.356e-12 ps=1.572e-05 ad=4.356e-12 pd=1.572e-05\nm22 n002 n001 vdd vdd cmosp l=4.22e-06 w=7.26e-06 as=4.356e-12 ps=1.572e-05 ad=4.356e-12 pd=1.572e-05\nm23 n001 diff2o1 tail3 vss cmosn l=2.14e-06 w=7.82e-06 as=4.692e-12 ps=1.684e-05 ad=4.692e-12 pd=1.684e-05\nm24 n002 diff2o2 tail3 vss cmosn l=2.14e-06 w=7.82e-06 as=4.692e-12 ps=1.684e-05 ad=4.692e-12 pd=1.684e-05\nm25 tail3 vb3 vss vss cmosn l=7.32e-06 w=9.56e-06 as=5.736e-12 ps=2.032e-05 ad=5.736e-12 pd=2.032e-05\nm26 n003 n002 vdd vdd cmosp l=4.13e-06 w=7.23e-06 as=4.338e-12 ps=1.566e-05 ad=4.338e-12 pd=1.566e-05\nm27 n003 vb3 vss vss cmosn l=7.32e-06 w=3.71e-06 as=2.226e-12 ps=8.62e-06 ad=2.226e-12 pd=8.62e-06\nm28 out n003 vdd vdd cmosp l=1.91e-06 w=8.26e-06 as=4.956e-12 ps=1.772e-05 ad=4.956e-12 pd=1.772e-05\nm29 out vb3 vss vss cmosn l=7.32e-06 w=9.12e-06 as=5.472e-12 ps=1.944e-05 ad=5.472e-12 pd=1.944e-05\nc1 n005 n002 c=1.5p\nr1 out n005 r=2.0k\nc2 out diff2o2 c=4.0p\n.ends opamp\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "sr": 1.7874e-06,
+    "vo1f": 5.5387e-14,
+    "cmr": 92.333,
+    "irn": 0.0013843,
+    "td4": 1.1096e-06,
+    "cmrmin": 42.333,
+    "vi2f": 0.0,
+    "psv": 3.0,
+    "td1": 4.2102e-05,
+    "area": 8089.7,
+    "pdis": 0.00021357,
+    "ib": 7.1191e-05,
+    "cmrr": 146.02,
+    "vi1f": 0.0,
+    "ovrmin": 47.333,
+    "td2": 8.3864e-05,
+    "gbp": 6948600.0,
+    "psrr": 121.84,
+    "ibr": 93.718,
+    "td3": 1.0281e-06,
+    "dcgain": 94.773,
+    "vo2f": -8.3098e-13,
+    "ro": 0.7304,
+    "pm": -2.5395,
+    "ovr": 97.333
+  }
+}

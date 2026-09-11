@@ -1,0 +1,25 @@
+{
+  "source": "70d5d6d290440f4876b4efa90baa3a545d976185d2fec1991b9c391b91e0d5b8.json",
+  "netlist": ".param psvoltage=3.0v\n.subckt opamp inm inp out vdd vss\nm1 n009 n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm14 out n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm19 n001 inm n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm20 n004 inp n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm21 vdd n004 n004 vdd cmosp l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm22 out n005 vdd vdd cmosp l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm23 vdd n001 n001 vdd cmosp l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm24 vdd n003 n005 vdd cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm25 vdd n003 n003 vdd cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm26 n003 n004 n010 vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm27 n005 n001 n010 vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm28 n010 n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nc3 out n006 c=1p\nm29 vdd n002 n007 vdd cmosp l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm30 vdd n002 n002 vdd cmosp l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm31 n002 n007 n008 vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm32 n007 n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nr2 n008 vss r=160k\nr1 n005 n006 r=40k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "psrr": 84.307,
+    "cmr": 100.0,
+    "pm": 94.548,
+    "cmrmin": 50.0,
+    "area": 1943.6,
+    "dcgain": 45.592,
+    "ib": 1.506e-05,
+    "gbp": 5602800.0,
+    "ro": 205.4,
+    "psv": 3.0,
+    "ovr": 50.667,
+    "ovrmin": 2.0,
+    "pdis": 4.5181e-05,
+    "cmrr": 132.82,
+    "ibr": 10.11,
+    "irn": 0.010207
+  }
+}

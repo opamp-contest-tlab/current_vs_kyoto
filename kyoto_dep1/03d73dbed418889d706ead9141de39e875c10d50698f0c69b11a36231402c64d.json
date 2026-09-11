@@ -1,0 +1,34 @@
+{
+  "source": "03d73dbed418889d706ead9141de39e875c10d50698f0c69b11a36231402c64d.json",
+  "netlist": ".param psvoltage=3.0v\n.subckt opamp inm inp out vdd vss\nm1 n009 n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm14 out n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm19 n001 inm n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm20 n004 inp n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm21 vdd n004 n004 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm22 out n005 vdd vdd cmosp l=1e-06 w=3e-06 m=12 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm23 vdd n001 n001 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm24 vdd n003 n005 vdd cmosp l=1e-06 w=3e-06 m=10 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm25 vdd n003 n003 vdd cmosp l=1e-06 w=3e-06 m=10 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm26 n003 n004 n010 vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm27 n005 n001 n010 vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm28 n010 n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nc3 out n006 c=1p\nm29 vdd n002 n007 vdd cmosp l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm30 vdd n002 n002 vdd cmosp l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm31 n002 n007 n008 vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm32 n007 n008 vss vss cmosn l=1e-06 w=1e-06 m=12 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nr2 n008 vss r=160k\nr1 n005 n006 r=40k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "td2": 0.0,
+    "vi2f": -0.011997,
+    "dcgain": 42.865,
+    "ib": 1.509e-05,
+    "vo1f": 0.023701,
+    "gbp": 3666400.0,
+    "pm": 93.755,
+    "ovr": 52.0,
+    "sr": 489660.0,
+    "ibr": 10.13,
+    "irn": 0.01106,
+    "cmr": 100.0,
+    "td3": 0.0,
+    "area": 2093.2,
+    "psv": 3.0,
+    "cmrmin": 50.0,
+    "td4": 0.0,
+    "psrr": 80.82,
+    "ovrmin": 2.0,
+    "pdis": 4.527e-05,
+    "vo2f": -0.023578,
+    "cmrr": 141.32,
+    "td1": 0.0,
+    "ro": 280.1,
+    "vi1f": 0.011997
+  }
+}

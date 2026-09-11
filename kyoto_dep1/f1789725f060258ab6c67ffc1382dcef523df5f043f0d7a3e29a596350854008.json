@@ -1,0 +1,34 @@
+{
+  "source": "f1789725f060258ab6c67ffc1382dcef523df5f043f0d7a3e29a596350854008.json",
+  "netlist": ".param psvoltage=3v\n.subckt opamp inm inp out vdd vss\nm699 net6 net6 vdd vdd cmosp l=2e-06 w=1.69e-05 as=1.014e-11 ps=3.5e-05 ad=1.014e-11 pd=3.5e-05\nm698 net2 net5 net6 net6 cmosp l=1e-06 w=9.4e-06 as=5.64e-12 ps=2e-05 ad=5.64e-12 pd=2e-05\nm719 net10 net10 vdd vdd cmosp l=2e-06 w=4e-06 as=2.4e-12 ps=9.2e-06 ad=2.4e-12 pd=9.2e-06\nm718 out net5 net10 net10 cmosp l=1e-06 w=1.673e-05 as=1.0038e-11 ps=3.466e-05 ad=1.0038e-11 pd=3.466e-05\nm716 net3 net1 net2 net2 cmosp l=1e-06 w=6e-06 as=3.6e-12 ps=1.32e-05 ad=3.6e-12 pd=1.32e-05\nm702 net1 inp net18 net18 cmosp l=1e-06 w=5.4e-06 as=3.24e-12 ps=1.2e-05 ad=3.24e-12 pd=1.2e-05\nm715 net8 net9 net2 net2 cmosp l=1e-06 w=6e-06 as=3.6e-12 ps=1.32e-05 ad=3.6e-12 pd=1.32e-05\nm692 net20 net20 vdd vdd cmosp l=2e-06 w=1.687e-05 as=1.0122e-11 ps=3.494e-05 ad=1.0122e-11 pd=3.494e-05\nm700 net18 net5 net20 net20 cmosp l=1e-06 w=9.42e-06 as=5.652e-12 ps=2.004e-05 ad=5.652e-12 pd=2.004e-05\nm694 net16 net14 vdd vdd cmosp l=2e-06 w=2.3e-06 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm697 net25 net14 net27 net27 cmosp l=1e-06 w=3.5e-05 as=2.1e-11 ps=7.12e-05 ad=2.1e-11 pd=7.12e-05\nm701 net14 net14 vdd vdd cmosp l=2e-06 w=2.3e-06 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm691 net12 net12 vdd vdd cmosp l=1e-06 w=9.31e-06 as=5.586e-12 ps=1.982e-05 ad=5.586e-12 pd=1.982e-05\nm688 net5 net5 net12 net12 cmosp l=1e-06 w=9.18e-06 as=5.508e-12 ps=1.956e-05 ad=5.508e-12 pd=1.956e-05\nm705 net9 inm net18 net18 cmosp l=1e-06 w=5.4e-06 as=3.24e-12 ps=1.2e-05 ad=3.24e-12 pd=1.2e-05\nm685 net13 net13 net5 net5 cmosp l=1e-06 w=1.017e-05 as=6.102e-12 ps=2.154e-05 ad=6.102e-12 pd=2.154e-05\nm703 net1 net15 net21 vss cmosn l=1e-06 w=1.32e-05 as=7.92e-12 ps=2.76e-05 ad=7.92e-12 pd=2.76e-05\nm713 net3 net3 net4 vss cmosn l=1e-06 w=2.2e-05 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nm712 net8 net3 net7 vss cmosn l=1e-06 w=2.2e-05 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nm717 out net8 vss vss cmosn l=6e-06 w=7.4e-07 as=4.44e-13 ps=2.68e-06 ad=4.44e-13 pd=2.68e-06\nm710 net4 net4 vss vss cmosn l=2e-06 w=1.8e-05 as=1.08e-11 ps=3.72e-05 ad=1.08e-11 pd=3.72e-05\nm709 net7 net4 vss vss cmosn l=2e-06 w=1.8e-05 as=1.08e-11 ps=3.72e-05 ad=1.08e-11 pd=3.72e-05\nm704 net21 net17 vss vss cmosn l=2e-06 w=7.5e-06 as=4.5e-12 ps=1.62e-05 ad=4.5e-12 pd=1.62e-05\nm690 net14 net25 net23 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm689 net25 net25 net26 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm714 net16 net16 net15 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm707 net9 net15 net19 vss cmosn l=1e-06 w=1.32e-05 as=7.92e-12 ps=2.76e-05 ad=7.92e-12 pd=2.76e-05\nm693 net23 net26 net22 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm696 net13 net26 net11 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm695 net26 net26 net24 vss cmosn l=2e-06 w=1e-05 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm711 net15 net15 net17 vss cmosn l=2e-06 w=5.01e-06 as=3.006e-12 ps=1.122e-05 ad=3.006e-12 pd=1.122e-05\nm706 net19 net17 vss vss cmosn l=2e-06 w=7.5e-06 as=4.5e-12 ps=1.62e-05 ad=4.5e-12 pd=1.62e-05\nm687 net11 net11 vss vss cmosn l=2e-06 w=8e-06 as=4.8e-12 ps=1.72e-05 ad=4.8e-12 pd=1.72e-05\nm686 net24 net24 vss vss cmosn l=2e-06 w=8e-06 as=4.8e-12 ps=1.72e-05 ad=4.8e-12 pd=1.72e-05\nm684 net22 net24 vss vss cmosn l=2e-06 w=8e-06 as=4.8e-12 ps=1.72e-05 ad=4.8e-12 pd=1.72e-05\nm708 net17 net17 vss vss cmosn l=2e-06 w=1.51e-05 as=9.06e-12 ps=3.14e-05 ad=9.06e-12 pd=3.14e-05\nc0 net8 net28 c=15p\nr26 net28 out r=30k\nr32 vdd net27 r=48.49k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "td1": 3.1083e-07,
+    "td3": 7.7616e-07,
+    "vo2f": -0.18171,
+    "cmrmin": 1.3333,
+    "gbp": 24577000.0,
+    "vi2f": -0.0097175,
+    "ovrmin": 3.3333,
+    "psv": 3.0,
+    "pm": -136.41,
+    "ibr": 44.477,
+    "ro": 5.14,
+    "cmr": 8.0,
+    "td2": 2.2227e-06,
+    "sr": 9578700.0,
+    "td4": 3.4833e-06,
+    "vo1f": -0.11591,
+    "area": 16314.0,
+    "pdis": 0.00019529,
+    "psrr": 93.53,
+    "ib": 6.5096e-05,
+    "dcgain": 77.79,
+    "vi1f": 0.0097175,
+    "ovr": 23.0,
+    "irn": 0.0036373,
+    "cmrr": 103.01
+  }
+}

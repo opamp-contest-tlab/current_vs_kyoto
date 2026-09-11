@@ -1,0 +1,25 @@
+{
+  "source": "19b616d63292604fdcd17b8a1b9edc88386796679fd327085e0f87ed36ec0b64.json",
+  "netlist": ".param psvoltage=3\n.subckt opamp inm inp out vdd vss\nm000 out net002 vss vss cmosn l=3.6e-07 w=3.6e-07 m=20 as=2.16e-13 ps=1.92e-06 ad=2.16e-13 pd=1.92e-06\nm001 net010 net015 vdd vdd cmosp l=3.6e-07 w=1.15e-06 m=2 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm002 net011 net021 vss vss cmosn l=3.6e-07 w=3.6e-07 m=1 as=2.16e-13 ps=1.92e-06 ad=2.16e-13 pd=1.92e-06\nm003 net021 net021 vss vss cmosn l=3.6e-07 w=3.6e-07 m=1 as=2.16e-13 ps=1.92e-06 ad=2.16e-13 pd=1.92e-06\nm004 out net015 vdd vdd cmosp l=3.6e-07 w=1.15e-06 m=20 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm005 net021 inm net010 net010 cmosp l=3.6e-07 w=1.15e-06 m=1 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm006 net011 inp net010 net010 cmosp l=3.6e-07 w=1.15e-06 m=1 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm007 net015 net015 vdd vdd cmosp l=3.6e-07 w=1.15e-06 m=1 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm008 net016 net015 vdd vdd cmosp l=3.6e-07 w=1.15e-06 m=2 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm009 net002 net018 vss vss cmosn l=3.6e-07 w=3.6e-07 m=1 as=2.16e-13 ps=1.92e-06 ad=2.16e-13 pd=1.92e-06\nm010 net018 net018 vss vss cmosn l=3.6e-07 w=3.6e-07 m=1 as=2.16e-13 ps=1.92e-06 ad=2.16e-13 pd=1.92e-06\nm011 net018 net011 net016 net016 cmosp l=3.6e-07 w=1.15e-06 m=1 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nm012 net002 net021 net016 net016 cmosp l=3.6e-07 w=1.15e-06 m=1 as=6.9e-13 ps=3.5e-06 ad=6.9e-13 pd=3.5e-06\nr000 vss net015 r=472.2k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "ovr": 98.667,
+    "psv": 3.0,
+    "pdis": 0.00039979,
+    "ibr": 16.074,
+    "dcgain": 85.359,
+    "cmrmin": 50.0,
+    "pm": -60.915,
+    "ro": 1.556,
+    "ib": 0.00013326,
+    "ovrmin": 48.667,
+    "area": 1576.5,
+    "irn": 0.024987,
+    "gbp": 691160000.0,
+    "psrr": 96.225,
+    "cmrr": 124.12,
+    "cmr": 100.0
+  }
+}

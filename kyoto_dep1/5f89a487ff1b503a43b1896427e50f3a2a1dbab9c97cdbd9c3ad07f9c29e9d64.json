@@ -1,0 +1,34 @@
+{
+  "source": "5f89a487ff1b503a43b1896427e50f3a2a1dbab9c97cdbd9c3ad07f9c29e9d64.json",
+  "netlist": ".param psvoltage=3\n.subckt opamp inm inp out vdd vss\nm1 n001 inm n004 vss cmosn l=1e-06 w=0.0002621 as=1.5726e-10 ps=0.0005254 ad=1.5726e-10 pd=0.0005254\nm2 n002 inp n004 vss cmosn l=1e-06 w=0.0002621 as=1.5726e-10 ps=0.0005254 ad=1.5726e-10 pd=0.0005254\nm3 n001 n001 vdd vdd cmosp l=1e-06 w=1.19e-06 as=7.14e-13 ps=3.58e-06 ad=7.14e-13 pd=3.58e-06\nm4 n002 n001 vdd vdd cmosp l=1e-06 w=1.19e-06 as=7.14e-13 ps=3.58e-06 ad=7.14e-13 pd=3.58e-06\nm5 n004 n005 vss vss cmosn l=1e-06 w=1.681e-05 as=1.0086e-11 ps=3.482e-05 ad=1.0086e-11 pd=3.482e-05\nr1 vdd n005 r=41k\nr2 n009 n004 r=796\nc1 out n009 c=1p\nc2 out vss c=1p\nm6 out n002 vdd vdd cmosp l=1e-06 w=5.1e-06 as=3.06e-12 ps=1.14e-05 ad=3.06e-12 pd=1.14e-05\nm7 out n005 vss vss cmosn l=1e-06 w=3.62e-05 as=2.172e-11 ps=7.36e-05 ad=2.172e-11 pd=7.36e-05\nm8 n005 n005 vss vss cmosn l=1e-06 w=1.681e-05 as=1.0086e-11 ps=3.482e-05 ad=1.0086e-11 pd=3.482e-05\n.ends opamp\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "td3": 0.0,
+    "cmr": 77.667,
+    "ovrmin": 34.0,
+    "cmrr": 75.659,
+    "irn": 0.001163,
+    "ib": 0.00025203,
+    "ro": 60.31,
+    "td2": 4.3073e-08,
+    "pdis": 0.00075608,
+    "td1": 0.0,
+    "dcgain": 54.793,
+    "gbp": 48111000.0,
+    "vo1f": 0.66231,
+    "ibr": 14.264,
+    "td4": 6.3961e-08,
+    "sr": 50402000.0,
+    "ovr": 84.0,
+    "cmrmin": 27.667,
+    "vo2f": 0.0069019,
+    "area": 3466.8,
+    "vi2f": -0.20096,
+    "pm": 13.451,
+    "vi1f": 0.20096,
+    "psrr": 81.568,
+    "psv": 3.0
+  }
+}

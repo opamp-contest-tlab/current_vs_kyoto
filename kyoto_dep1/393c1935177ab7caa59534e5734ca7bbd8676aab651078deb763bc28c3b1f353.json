@@ -1,0 +1,17 @@
+{
+  "source": "393c1935177ab7caa59534e5734ca7bbd8676aab651078deb763bc28c3b1f353.json",
+  "netlist": ".param psvoltage=3\n.subckt opamp inm inp out vdd vss\nm1 vdd net1 net1 vdd cmosp l=3.6e-07 w=2e-05 m=2 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\nm2 net2 net2 vss vss cmosn l=5.4e-07 w=2e-05 m=2 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\nm3 net3 net2 vss vss cmosn l=5.4e-07 w=2e-05 m=3 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\nm4 net4 vinm net3 vss cmosn l=3.6e-07 w=8e-06 m=1 as=4.8e-12 ps=1.72e-05 ad=4.8e-12 pd=1.72e-05\nm5 net5 vinp net3 vss cmosn l=3.6e-07 w=8e-06 m=1 as=4.8e-12 ps=1.72e-05 ad=4.8e-12 pd=1.72e-05\nm6 net6 vinp net5 vss cmosn l=3.6e-07 w=1.2e-05 m=2 as=7.2e-12 ps=2.52e-05 ad=7.2e-12 pd=2.52e-05\nm7 net7 vinm net4 vss cmosn l=3.6e-07 w=1.2e-05 m=2 as=7.2e-12 ps=2.52e-05 ad=7.2e-12 pd=2.52e-05\nm8 vdd net7 net8 vdd cmosp l=5.4e-07 w=2.4e-05 m=2 as=1.44e-11 ps=4.92e-05 ad=1.44e-11 pd=4.92e-05\nm9 vdd net7 net9 vdd cmosp l=5.4e-07 w=2.4e-05 m=2 as=1.44e-11 ps=4.92e-05 ad=1.44e-11 pd=4.92e-05\nm10 net9 net10 net6 vdd cmosp l=5.4e-07 w=2.4e-05 m=2 as=1.44e-11 ps=4.92e-05 ad=1.44e-11 pd=4.92e-05\nm11 net8 net10 net7 vdd cmosp l=5.4e-07 w=2.4e-05 m=2 as=1.44e-11 ps=4.92e-05 ad=1.44e-11 pd=4.92e-05\nr1 net11 net12 r=100000000\nm12 vdd net1 net13 vdd cmosp l=3.6e-07 w=2e-05 m=2 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\nm13 net13 vinm net14 vdd cmosp l=3.6e-07 w=1.8e-05 m=2 as=1.08e-11 ps=3.72e-05 ad=1.08e-11 pd=3.72e-05\nm14 net13 vinp net15 vdd cmosp l=3.6e-07 w=1.8e-05 m=2 as=1.08e-11 ps=3.72e-05 ad=1.08e-11 pd=3.72e-05\nm15 net14 vinm net16 vdd cmosp l=3.6e-07 w=2.2e-05 m=2 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nm16 net15 vinp net17 vdd cmosp l=3.6e-07 w=2.2e-05 m=2 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nm17 net16 net18 net19 vss cmosn l=3.6e-07 w=1e-05 m=1 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm18 net17 net18 net20 vss cmosn l=3.6e-07 w=1e-05 m=1 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm19 net19 net16 vss vss cmosn l=3.6e-07 w=1e-05 m=1 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm20 net20 net16 vss vss cmosn l=3.6e-07 w=1e-05 m=1 as=6e-12 ps=2.12e-05 ad=6e-12 pd=2.12e-05\nm21 net17 net21 net6 vdd cmosp l=3.6e-07 w=4e-05 m=2 as=2.4e-11 ps=8.12e-05 ad=2.4e-11 pd=8.12e-05\nm22 net17 net6 net6 vss cmosn l=3.6e-07 w=4e-05 m=2 as=2.4e-11 ps=8.12e-05 ad=2.4e-11 pd=8.12e-05\nm23 vdd net17 vout vdd cmosp l=3.6e-07 w=5e-05 m=3 as=3e-11 ps=0.0001012 ad=3e-11 pd=0.0001012\nm24 vout net6 vss vss cmosn l=3.6e-07 w=5e-05 m=3 as=3e-11 ps=0.0001012 ad=3e-11 pd=0.0001012\nc1 vout net17 c=5p\nm25 net1 net21 net11 vdd cmosp l=3.6e-07 w=2e-05 m=2 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\nm26 net12 net6 net2 vss cmosn l=5.4e-07 w=2e-05 m=2 as=1.2e-11 ps=4.12e-05 ad=1.2e-11 pd=4.12e-05\n.ends opamp\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "cmr": 0.0,
+    "psv": 3.0,
+    "area": 326890.0,
+    "cmrmin": 0.0,
+    "ovrmin": 50.0,
+    "cmrr": -406.02,
+    "ovr": 100.0,
+    "ro": 1.0
+  }
+}

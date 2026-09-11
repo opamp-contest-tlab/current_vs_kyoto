@@ -1,0 +1,25 @@
+{
+  "source": "e603e5fe2e4ad96509be30424d57116d4563208d1c62a4f8730cc5d7016bd8d3.json",
+  "netlist": ".param psvoltage=3.0v\n.subckt opamp inm inp out vdd vss\nm1 n009 n008 vss vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm14 out n008 vss vss cmosn l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm19 n001 inm n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm20 n004 inp n009 vss cmosn l=1e-06 w=1e-06 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm21 vdd n004 n004 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm22 out n005 vdd vdd cmosp l=1e-06 w=3e-06 m=10 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm23 vdd n001 n001 vdd cmosp l=1e-06 w=3e-06 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm24 vdd n003 n005 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm25 vdd n003 n003 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm26 n003 n004 n010 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm27 n005 n001 n010 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm28 n010 n008 vss vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nc3 out n006 c=1p\nm29 vdd n002 n007 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm30 vdd n002 n002 vdd cmosp l=1e-06 w=3e-06 m=1 as=1.8e-12 ps=7.2e-06 ad=1.8e-12 pd=7.2e-06\nm31 n002 n007 n008 vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm32 n007 n008 vss vss cmosn l=1e-06 w=1e-06 m=1 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nr2 n008 vss r=160k\nr1 n005 n006 r=40k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "pdis": 0.0001667,
+    "ovr": 76.0,
+    "ovrmin": 26.0,
+    "ib": 5.5567e-05,
+    "psrr": 82.188,
+    "gbp": 4495200.0,
+    "dcgain": 57.026,
+    "irn": 0.011449,
+    "psv": 3.0,
+    "cmr": 100.0,
+    "cmrmin": 50.0,
+    "ibr": 5.1865,
+    "pm": 94.117,
+    "cmrr": 113.97,
+    "area": 1785.2,
+    "ro": 51.68
+  }
+}

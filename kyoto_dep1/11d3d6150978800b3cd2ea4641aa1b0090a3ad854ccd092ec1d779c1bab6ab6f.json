@@ -1,0 +1,25 @@
+{
+  "source": "11d3d6150978800b3cd2ea4641aa1b0090a3ad854ccd092ec1d779c1bab6ab6f.json",
+  "netlist": ".param psvoltage=2.0\n.subckt opamp inm inp out vdd vss\nc023 out2 a c=500f\nm017 net1024 out2 vdd vdd cmosp l=4e-07 w=2.3e-06 m=4 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm2 out2 out1 vdd vdd cmosp l=4e-06 w=8.7e-06 m=2 as=5.22e-12 ps=1.86e-05 ad=5.22e-12 pd=1.86e-05\nm020 net1024 4 vss vss cmosn l=1e-05 w=5.8e-06 m=4 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nm3 out1 inm net939 vss cmosn l=4e-07 w=6.4e-07 m=2 as=3.84e-13 ps=2.48e-06 ad=3.84e-13 pd=2.48e-06\nm021 net1027 net1024 vdd vdd cmosp l=4e-07 w=2.3e-06 m=4 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm4 out2 inp net939 vss cmosn l=4e-07 w=6.4e-07 m=2 as=3.84e-13 ps=2.48e-06 ad=3.84e-13 pd=2.48e-06\nm022 net1027 4 vss vss cmosn l=1e-05 w=5.8e-06 m=4 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nm1 out1 out1 vdd vdd cmosp l=4e-06 w=8.7e-06 m=2 as=5.22e-12 ps=1.86e-05 ad=5.22e-12 pd=1.86e-05\nm11 a net1027 vdd vdd cmosp l=4e-07 w=2.3e-06 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm12 a a net1012 vss cmosn l=4e-07 w=6.4e-07 as=3.84e-13 ps=2.48e-06 ad=3.84e-13 pd=2.48e-06\nm13 net1011 net1011 net1012 net1012 cmosp l=4e-07 w=2.3e-06 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm14 net1011 4 vss vss cmosn l=1e-05 w=5.8e-06 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nm15 vdd a out vss cmosn l=4e-07 w=6.4e-07 m=8 as=3.84e-13 ps=2.48e-06 ad=3.84e-13 pd=2.48e-06\nm16 vss net1011 out out cmosp l=4e-07 w=2.3e-06 m=8 as=1.38e-12 ps=5.8e-06 ad=1.38e-12 pd=5.8e-06\nm5 net939 4 vss vss cmosn l=1e-05 w=5.8e-06 m=4 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nmb1 1 1 vdd vdd cmosp l=4e-06 w=8.7e-06 as=5.22e-12 ps=1.86e-05 ad=5.22e-12 pd=1.86e-05\nmb2 2 2 1 1 cmosp l=1e-05 w=2.2e-05 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nmb3 2 3 net787 vss cmosn l=1e-05 w=5.8e-06 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nmb4 net787 4 vss vss cmosn l=1e-05 w=5.8e-06 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nmb5 net892 1 net893 net893 cmosp l=4e-06 w=8.7e-06 m=4 as=5.22e-12 ps=1.86e-05 ad=5.22e-12 pd=1.86e-05\nmb6 3 2 net892 net892 cmosp l=1e-05 w=2.2e-05 as=1.32e-11 ps=4.52e-05 ad=1.32e-11 pd=4.52e-05\nmb7 3 3 4 vss cmosn l=1e-05 w=5.8e-06 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nmb8 4 4 vss vss cmosn l=1e-05 w=5.8e-06 as=3.48e-12 ps=1.28e-05 ad=3.48e-12 pd=1.28e-05\nr014 vdd net893 r=43.8k\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "area": 2724.0,
+    "gbp": 13088000.0,
+    "cmr": 96.75,
+    "ibr": 24.395,
+    "ro": 0.1,
+    "dcgain": 148.53,
+    "ovr": 32.0,
+    "ib": 5.886e-05,
+    "ovrmin": 8.5,
+    "psrr": 81.143,
+    "pm": 61.305,
+    "pdis": 0.00011772,
+    "cmrr": 79.443,
+    "psv": 2.0,
+    "irn": 0.012684,
+    "cmrmin": 46.75
+  }
+}

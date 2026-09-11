@@ -1,0 +1,25 @@
+{
+  "source": "d72636215207425eff2f9d54fd80be5e83109e18d770e26a6bdac19d26ab5923.json",
+  "netlist": ".param psvoltage=3\n.subckt opamp inm inp out vdd vss\nr13 bias1 bias2 r=1.443meg\nr12 bias2 bias3 r=370k\nm61 net056 bias3 vss vss cmosn l=5e-06 w=1.46e-06 m=10 as=8.76e-13 ps=4.12e-06 ad=8.76e-13 pd=4.12e-06\nm23 outp bias2 net059 vss cmosn l=1e-06 w=4e-07 m=10 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm22 outm bias2 net058 vss cmosn l=1e-06 w=4e-07 m=10 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm21 net058 outm vss vss cmosn l=1e-06 w=4e-07 m=10 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm20 net059 outm vss vss cmosn l=1e-06 w=4e-07 m=10 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm10 net047 bias2 net061 vss cmosn l=2.5e-06 w=3.3e-06 m=10 as=1.98e-12 ps=7.8e-06 ad=1.98e-12 pd=7.8e-06\nm9 out net35 vss vss cmosn l=1e-06 w=1.88e-06 m=1 as=1.128e-12 ps=4.96e-06 ad=1.128e-12 pd=4.96e-06\nm8 net061 net047 vss vss cmosn l=2.5e-06 w=3.9e-07 m=10 as=2.34e-13 ps=1.98e-06 ad=2.34e-13 pd=1.98e-06\nm7 net35 bias2 net060 vss cmosn l=2.5e-06 w=3.3e-06 m=10 as=1.98e-12 ps=7.8e-06 ad=1.98e-12 pd=7.8e-06\nm6 net060 net047 vss vss cmosn l=2.5e-06 w=3.9e-07 m=10 as=2.34e-13 ps=1.98e-06 ad=2.34e-13 pd=1.98e-06\nm2 bias3 bias2 net044 vss cmosn l=1e-06 w=4e-07 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm52 net044 bias3 vss vss cmosn l=1e-06 w=4e-07 as=2.4e-13 ps=2e-06 ad=2.4e-13 pd=2e-06\nm29 net034 bias1 vdd vdd cmosp l=2e-06 w=1.65e-06 m=30 as=9.9e-13 ps=4.5e-06 ad=9.9e-13 pd=4.5e-06\nm28 net042 inm net034 net034 cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm24 net031 inp net034 net034 cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm54 net057 net057 net034 net034 cmosp l=5e-06 w=1.47e-06 m=10 as=8.82e-13 ps=4.14e-06 ad=8.82e-13 pd=4.14e-06\nm53 net056 net056 net057 net057 cmosp l=5e-06 w=1.47e-06 m=10 as=8.82e-13 ps=4.14e-06 ad=8.82e-13 pd=4.14e-06\nm25 outp net056 net031 net031 cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm26 outm net056 net042 net042 cmosp l=1e-06 w=1e-06 m=10 as=6e-13 ps=3.2e-06 ad=6e-13 pd=3.2e-06\nm14 net047 outp net051 net051 cmosp l=2.5e-06 w=7.5e-07 m=10 as=4.5e-13 ps=2.7e-06 ad=4.5e-13 pd=2.7e-06\nm13 net35 outm net051 net051 cmosp l=2.5e-06 w=7.5e-07 m=10 as=4.5e-13 ps=2.7e-06 ad=4.5e-13 pd=2.7e-06\nm12 out bias1 vdd vdd cmosp l=1e-06 w=7.78e-06 m=1 as=4.668e-12 ps=1.676e-05 ad=4.668e-12 pd=1.676e-05\nm11 net051 bias1 vdd vdd cmosp l=2.5e-06 w=1.31e-06 m=22 as=7.86e-13 ps=3.82e-06 ad=7.86e-13 pd=3.82e-06\nm0 bias1 bias1 vdd vdd cmosp l=1e-06 w=9.3e-07 as=5.58e-13 ps=3.06e-06 ad=5.58e-13 pd=3.06e-06\nc6 outp out c=16p\n.ends\n",
+  "results": {
+    "abort": true
+  },
+  "values": {
+    "irn": 0.0057299,
+    "dcgain": 120.54,
+    "psrr": 140.49,
+    "ro": 0.1,
+    "cmr": 100.0,
+    "psv": 3.0,
+    "cmrr": 168.07,
+    "ovrmin": 6.0,
+    "pm": 90.068,
+    "area": 22816.0,
+    "pdis": 0.0001656,
+    "cmrmin": 50.0,
+    "ibr": 20.96,
+    "ovr": 54.333,
+    "ib": 5.52e-05,
+    "gbp": 1026800.0
+  }
+}
