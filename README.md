@@ -12,6 +12,7 @@
 - 緑点が「一致している」、赤点が「異なっている」
 - 現行システムの結果に対して、変化量が1%未満であれば有効数字・丸め誤差と判断し、「一致している」と評価
 
+![面積](json_comparison/values.area.png)
 
 ![消費電流](json_comparison/values.ib.png)
 
